@@ -1,9 +1,14 @@
 import React from 'react'
 import ProductListing from './pages/ProductListing'
+import Header from './components/Header'
+import "./App.css"
 
 const App = () => {
   return (
-    <ProductListing />
+    <>
+      <Header/>
+      <ProductListing />
+    </>
   )
 }
 
