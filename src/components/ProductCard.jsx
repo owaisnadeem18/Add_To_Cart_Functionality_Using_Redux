@@ -1,11 +1,10 @@
 import { Card } from 'antd'
 import React from 'react'
-
 const { Meta } = Card;
 
 const ProductCard = () => {
-  return (
-    
+  return (    
+    <div className='container products-container' >
         <Card
             hoverable
             style={{ width: 240 }}
@@ -13,6 +12,7 @@ const ProductCard = () => {
         >
             <Meta title="Europe Street beat" description="www.instagram.com" />
         </Card>
+    </div>
     
   )
 }
